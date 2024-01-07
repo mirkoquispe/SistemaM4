@@ -57,13 +57,43 @@ body {
 
 .nav__link {
     margin-left: auto;
-    padding: 0;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    gap: 2em;
+    max-width:900px;
+    font-size: 25px;
+    margin-top: 1px;
 }
-
+.nav__link--menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav__link--menu >li >a{
+    display: block;
+    padding: 10px 8px;
+    color: rgb(10, 200, 248);
+    text-decoration: none;
+}
+.nav__link--menu > li:hover{
+    background-color: red;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width:200px;
+  
+}
+.nav__link--menu li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+         display:block;
+         color: white;
+         padding: 15px 15px 15px 20px;
+         text-decoration: none;
+}
 .nav__items {
     list-style: none;
 }
