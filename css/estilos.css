@@ -79,7 +79,7 @@ body {
     position: absolute;
     display: none;
     list-style: none;
-    width:200px;
+    width:185px;
   
 }
 .nav__link--menu li:hover .menu-vertical{
@@ -91,7 +91,7 @@ body {
 .menu-vertical li a{
          display:block;
          color: white;
-         padding: 15px 15px 15px 20px;
+         padding: 7px 7px 7px 15px;
          text-decoration: none;
 }
 .nav__items {
