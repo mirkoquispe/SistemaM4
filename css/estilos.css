@@ -85,6 +85,10 @@ body {
 .nav__link--menu li:hover .menu-vertical{
     display: block;
 }
+.menu-vertical li:hover{
+    background-color: black;
+    
+}
 .menu-vertical li a{
          display:block;
          color: white;
