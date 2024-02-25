@@ -68,7 +68,7 @@ body {
 }
 .nav__link--menu >li >a{
     display: block;
-    padding: 10px 8px;
+    padding: 8px 6px;
     color: rgb(10, 200, 248);
     text-decoration: none;
 }
